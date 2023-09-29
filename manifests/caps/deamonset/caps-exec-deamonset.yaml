@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: hostnetwork-exec-daemonset
+  name: caps-exec-daemonset
   labels:
     app: pentest
     type: daemonset
@@ -17,7 +17,7 @@ spec:
         type: daemonset
     spec:
       containers:
-      - name: hostnetwork-exec-daemonset
+      - name: caps-exec-daemonset
         image: ubuntu
         command: [ "/bin/sh", "-c", "--" ]
         args: [ "while true; do sleep 30; done;" ]
