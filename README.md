@@ -125,6 +125,7 @@ Each resource in the `manifests` directory targets a specific attribute or a com
    * [hostNetwork only](manifests/hostnetwork/)
    * [hostIPC only](manifests/hostipc/)
    * [Nothing allowed](manifests/nothing-allowed/)
+   * [Added capabilities](manifests/caps/)
 
 
 #### Option 2: Shotgun approach
@@ -140,6 +141,7 @@ Each resource in the `manifests` directory targets a specific attribute or a com
    * [hostNetwork only](manifests/hostnetwork/)
    * [hostIPC only](manifests/hostipc/)
    * [Nothing allowed](manifests/nothing-allowed/)
+   * [Added capabilities](manifests/caps/)
 
 ## Usage Examples
 
